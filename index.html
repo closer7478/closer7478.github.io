@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Little Workspace는 할 일, 마감과 캘린더를 한곳에서 관리하는 맥·윈도우용 개인 데스크톱 비서 앱입니다.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Little Workspace — 하루를 정리하는 작은 작업 공간</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <div class="wrap">
+    <header class="header">
+      <a class="brand" href="./index.html"><img src="./favicon.svg" alt="" width="32" height="32">Little Workspace</a>
+      <nav aria-label="주 메뉴"><a href="./index.html" aria-current="page">앱 소개</a><a href="./privacy.html">개인정보처리방침</a><a href="./terms.html">서비스 약관</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="intro-title">
+        <div>
+          <p class="eyebrow">A LITTLE SPACE FOR YOUR DAY</p>
+          <h1 id="intro-title">해야 할 일을,<br>편안하게 한곳에.</h1>
+          <p class="lead">오전과 오후의 할 일, 꼭 지켜야 할 시간, 놓치기 쉬운 마감까지. Little Workspace는 나의 하루를 정리하는 맥·윈도우용 데스크톱 비서입니다.</p>
+          <p class="small">본인과 소수의 지인이 사용하는 개인 운영 앱입니다.</p>
+          <div class="actions"><a class="button primary" href="#google">Google 연결 안내</a><a class="button" href="mailto:closer7478@gmail.com">문의하기</a></div>
+        </div>
+        <aside class="planner" aria-label="앱 사용 방식을 설명하는 예시 할 일">
+          <div class="planner-head"><strong>오늘 할 일</strong><span class="small">나의 작은 계획</span></div>
+          <p class="period">오전</p>
+          <div class="task"><span class="check done" aria-hidden="true"></span><span>오늘의 작업 목록 정리</span></div>
+          <div class="task"><span class="check" aria-hidden="true"></span><span>콘텐츠 구성안 확인</span></div>
+          <p class="period">오후</p>
+          <div class="task"><span class="check" aria-hidden="true"></span><span><time datetime="14:00">14:00</time> 팀 회의</span></div>
+          <div class="task"><span class="check" aria-hidden="true"></span><span>수정안 전달</span><span class="deadline">17:00 마감</span></div>
+          <p class="example">기능 설명을 위한 예시이며 실제 사용자 일정이 아닙니다.</p>
+        </aside>
+      </section>
+      <section class="section" aria-labelledby="features-title">
+        <h2 id="features-title">내가 일하는 방식에 맞춰</h2>
+        <div class="features">
+          <div><span class="number">01 / PLAN</span><h3>오전·오후와 마감 관리</h3><p>할 일을 날짜와 오전·오후로 나누고, 고정 일정과 마감을 따로 확인합니다. 프로젝트별 진행 상태도 함께 관리합니다.</p></div>
+          <div><span class="number">02 / CALENDAR</span><h3>캘린더를 한 화면에</h3><p>허용한 Google 캘린더를 읽어 주·월·일 보기로 확인합니다. Google 원본 일정은 이 앱에서 수정하거나 삭제하지 않습니다.</p></div>
+          <div><span class="number">03 / COMPANION</span><h3>작은 친구와 함께</h3><p>화면 위 캐릭터, 집중 타이머와 채팅을 사용합니다. Codex를 연결하면 일정 상담과 업무 메시지 정리를 도와줍니다.</p></div>
+        </div>
+      </section>
+      <section class="section" id="google" aria-labelledby="google-title">
+        <div class="connection">
+          <h2 id="google-title">Google 계정은 이렇게 연결합니다</h2>
+          <ol>
+            <li><strong>앱에서 Google로 로그인합니다.</strong> 계정 구분과 기기 간 동기화를 위해 계정 식별자, 이름, 이메일을 확인합니다. Google 비밀번호는 앱이 수집하지 않습니다.</li>
+            <li><strong>캘린더 읽기 권한을 별도로 확인합니다.</strong> 로그인에 이어 동의 화면이 열리며, 허용하면 기본 캘린더를 가져옵니다. 거절해도 앱 로그인과 기존 기록은 유지됩니다.</li>
+            <li><strong>기록을 이어서 사용합니다.</strong> 로그인한 작업 공간의 할 일·일정·메모는 로컬과 운영자의 개인 서버에 저장되어 같은 계정으로 다른 컴퓨터에서 불러올 수 있습니다.</li>
+          </ol>
+          <p>캘린더를 읽어 저장한 일정도 동기화 대상입니다. Codex·노션·디스코드는 사용자가 연결한 경우에 이용하며, 전달되는 정보는 <a href="./privacy.html#sharing">개인정보처리방침의 외부 서비스 항목</a>에서 확인할 수 있습니다.</p>
+        </div>
+      </section>
+      <section class="section contact" aria-labelledby="contact-title">
+        <div><h2 id="contact-title">이용 중 궁금한 점이 있다면</h2><p>연결 문제, 데이터 확인·삭제 요청은 운영자에게 문의해 주세요.</p></div>
+        <a class="button" href="mailto:closer7478@gmail.com">closer7478@gmail.com</a>
+      </section>
+    </main>
+    <footer class="footer"><div class="footer-line"><span>© 2026 Little Workspace · 운영자 closer7478</span><nav aria-label="하단 메뉴"><a href="./privacy.html">개인정보처리방침</a><a href="./terms.html">서비스 약관</a></nav></div><p>Google 인증 화면에는 Little-Workspace로 표시될 수 있습니다. Google이 제공하거나 보증하는 앱이 아닙니다.</p></footer>
+  </div>
+</body>
+</html>
